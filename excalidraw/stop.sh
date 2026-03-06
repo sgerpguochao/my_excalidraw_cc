@@ -10,4 +10,4 @@ pm2 stop excalidraw-frontend excalidraw-collab 2>/dev/null
 echo "Excalidraw 已停止"
 echo ""
 echo "使用 'pm2 status' 查看状态"
-echo "使用 '$0 start' 启动服务"
+echo "使用 './start.sh' 启动服务"
