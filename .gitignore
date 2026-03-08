@@ -17,6 +17,9 @@ proxy.log
 # 构建产物（excalidraw-room 的 dist 需保留，用于部署）
 # excalidraw-room/dist 不忽略，部署时需要
 
+# Vite 配置缓存
+**/vite.config.*.timestamp-*.mjs
+
 # 测试/调试
 collab-test-fail.png
 .coverage

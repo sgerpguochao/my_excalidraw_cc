@@ -16,8 +16,8 @@ export default defineConfig(({ mode }) => {
     server: {
       port: Number(envVars.VITE_APP_PORT || 3000),
       host: true, // 监听 0.0.0.0，允许外网访问
-      // open the browser
-      open: true,
+      // 服务器/无图形环境无 xdg-open，设为 false 避免 spawn ENOENT 导致进程崩溃（502）
+      open: false,
     },
     // We need to specify the envDir since now there are no
     //more located in parallel with the vite.config.ts file but in parent dir

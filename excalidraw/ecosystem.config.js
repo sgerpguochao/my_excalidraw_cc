@@ -14,7 +14,7 @@ module.exports = {
       name: 'excalidraw-frontend',
       script: 'npx',
       cwd: '/home/ubuntu/workspace/my_excalidraw_cc/excalidraw/excalidraw-app',
-      args: 'vite --host --port 3001',
+      args: 'vite --host --port 3001 --no-open',
       instances: 1
     }
   ]
